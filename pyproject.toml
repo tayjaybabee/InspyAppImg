@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "inspyappimg"
+version = "0.1.0"
+description = ""
+authors = ["Taylor B. <tayjaybabee@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+inspy-logger = ">=3.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
